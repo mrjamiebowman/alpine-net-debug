@@ -1,3 +1,5 @@
+# docker rmi -f mrjamiebowman/net-debugging:alpine-net3.1
+# docker rmi -f mrjamiebowman/net-debugging:alpine-net5
 
 # alpine
 docker build --no-cache -f alpine\net-3.1\Dockerfile -t mrjamiebowman/net-debugging:alpine-net3.1 .
